@@ -1,0 +1,215 @@
+
+    <!-- header area start -->
+    <header>
+        <div class="bd-header">
+            <!-- header top area start  -->
+            <div class="bd-header-top bd-header-top-2 d-none d-xl-block">
+                <!-- header top clip shape  -->
+                <div class="bd-header-top-clip-shape"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="bd-header-top-wrapper d-flex justify-content-between">
+                                <div class="bd-header-top-left">
+                                    <div class="bd-header-meta-items-2  d-flex align-items-center">
+                                        <div class="bd-header-meta-item is-white d-flex align-items-center">
+                                            <div class="bd-header-meta-icon">
+                                                <i class="fa-sharp fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="bd-header-meta-text">
+                                                <p>تأسيس عام 1999</p>
+                                            </div>
+                                        </div>
+                                        <div class="bd-header-meta-item d-flex align-items-center">
+                                            <div class="bd-header-meta-icon">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="bd-header-meta-text">
+                                                <p><a href="#">المملكة العربية السعوديه الاحساء </a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bd-header-top-right d-flex align-items-center">
+                                    <div class="bd-header-meta-items d-flex align-items-center">
+                                        <div class="bd-header-meta-item d-flex align-items-center">
+                                            <div class="bd-header-meta-icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="bd-header-meta-text">
+                                                <p style="color: white;"><a href="mailto:support@kindedo.com">support@jazuralmustaqbal.com</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="bd-header-meta-item d-flex align-items-center">
+                                            <div class="bd-header-meta-icon">
+                                                <i class="fas fa-clock"></i>
+                                            </div>
+                                            <div class="bd-header-meta-text">
+                                                <p style="color: white;">8.00am-4.00pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header top area end -->
+
+            <!-- header bottom area start -->
+            <div id="header-sticky" class="bd-header-bottom-2">
+                <!-- header bottom clip shape  -->
+                <div class="bd-header-bottom-clip-shape"></div>
+                <div class="container">
+                    <div class="mega-menu-wrapper p-relative">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="bd-header-logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/logo.svg" alt="logo">
+                                </a>
+                            </div>
+                            <div class="bd-main-menu d-none d-lg-flex align-items-center">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="has-dropdown">
+                                            <a href="{{route('index')}}">الصفحة الرئيسية</a>
+
+                                        </li>
+                                        <li>
+                                            <a href="{{route('about')}}">عن المدرسة</a>
+                                        </li>
+                                        <li class="has-dropdown has-mega-menu">
+                                            <a href="programs.html">المراحل الدرسية</a>
+                                            <ul class="mega-menu mega-menu-2">
+                                                <li>
+                                                    <a href="javascript:void(0);" class="d-lg-none">List 1</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="program-details.html" class="mega-program">
+                                                                <div class="mega-menu-2-inner-num"><span>01</span></div>
+                                                                <div class="mega-menu-2-inner-title">
+                                                                    <h6>Settling</h6>
+                                                                    <span>4-5 Yrs</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="program-details.html" class="mega-program">
+                                                                <div class="mega-menu-2-inner-num"><span>02</span></div>
+                                                                <div class="mega-menu-2-inner-title">
+                                                                    <h6>Play Group</h6>
+                                                                    <span>4-5 Yrs</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="program-details.html" class="mega-program">
+                                                                <div class="mega-menu-2-inner-num"><span>03</span></div>
+                                                                <div class="mega-menu-2-inner-title">
+                                                                    <h6>Play Group</h6>
+                                                                    <span>5-6 Yrs</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0);" class="d-lg-none">List 2</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="program-details.html" class="mega-program">
+                                                                <div class="mega-menu-2-inner-num"><span>04</span></div>
+                                                                <div class="mega-menu-2-inner-title">
+                                                                    <h6>Nuesery</h6>
+                                                                    <span>4-5 Yrs</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="program-details.html" class="mega-program">
+                                                                <div class="mega-menu-2-inner-num"><span>05</span></div>
+                                                                <div class="mega-menu-2-inner-title">
+                                                                    <h6>Junior Kg</h6>
+                                                                    <span>4-5 Yrs</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="program-details.html" class="mega-program">
+                                                                <div class="mega-menu-2-inner-num"><span>06</span></div>
+                                                                <div class="mega-menu-2-inner-title">
+                                                                    <h6>Senior Kg</h6>
+                                                                    <span>6-7 Yrs</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="test">
+                                                    <a href="javascript:void(0);" class="d-lg-none">list 3</a>
+                                                    <ul>
+                                                        <li>
+                                                            <div class="mega-menu-2-inner-thumb p-relative">
+                                                                <img src="assets/img/logo/mega-menu-1.png" alt="img not found!">
+                                                                <div class="mega-menu-2-inner-thumb-content">
+                                                                    <h4>Join New Program</h4>
+                                                                    <div class="mega-menu-2-inner-thumb-btn mb-25">
+                                                                        <a href="programs.html" class="mega-btn">View More</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="has-dropdown">
+                                            <a href="{{route('posts')}}">المدونه</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{route('contacts')}}">اتصل بنا</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="bd-search-btn-wrapper">
+                                    <button class="bd-search-open-btn">
+                              <i class="flaticon-search"></i>
+                           </button>
+                                </div>
+                            </div>
+                            <div class="bd-header-bottom-right d-flex justify-content-end align-items-center">
+                                <div class="bd-header-meta-item d-none bd-header-menu-meta d-xxl-flex align-items-center">
+                                    <div class="bd-header-meta-icon">
+                                        <i class="flaticon-phone-call"></i>
+                                    </div>
+                                    <div class="bd-header-meta-text">
+                                        <p><a href="tel:9072003462">0560896483</a></p>
+                                    </div>
+                                </div>
+                                <div class="bd-header-btn d-none d-xl-block">
+                                    <a href="contact.html" class="bd-btn">
+                                        <span class="bd-btn-inner">
+                                 <span class="bd-btn-normal">التسجل </span>
+                                        <span class="bd-btn-hover">سجل الان</span>
+                                    </a>
+                                </div>
+                                <div class="header-hamburger">
+                                    <button type="button" class="hamburger-btn offcanvas-open-btn">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                           </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header bottom area end -->
+        </div>
+    </header>
+    <!-- header area end here -->
