@@ -80,7 +80,7 @@
                                             <a href="{{route('about')}}">عن المدرسة</a>
                                         </li>
                                         <li class="has-dropdown has-mega-menu">
-                                            <a href="programs.html">المراحل الدرسية</a>
+                                            <a href="#">المراحل الدرسية</a>
                                             <ul class="mega-menu mega-menu-2">
                                                 <li>
                                                     <a href="javascript:void(0);" class="d-lg-none">List 1</a>
@@ -146,26 +146,13 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="test">
-                                                    <a href="javascript:void(0);" class="d-lg-none">list 3</a>
-                                                    <ul>
-                                                        <li>
-                                                            <div class="mega-menu-2-inner-thumb p-relative">
-                                                                <img src="assets/img/logo/mega-menu-1.png" alt="img not found!">
-                                                                <div class="mega-menu-2-inner-thumb-content">
-                                                                    <h4>Join New Program</h4>
-                                                                    <div class="mega-menu-2-inner-thumb-btn mb-25">
-                                                                        <a href="programs.html" class="mega-btn">View More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+
                                             </ul>
                                         </li>
 
-
+                                        <li>
+                                            <a href="{{route('galleries')}}"> معرض الصور</a>
+                                        </li>
                                         <li class="has-dropdown">
                                             <a href="{{route('posts')}}">المدونه</a>
                                         </li>

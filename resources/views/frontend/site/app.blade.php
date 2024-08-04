@@ -8,6 +8,14 @@
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
     @include('frontend.site.partials.styles')
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: "Cairo", sans-serif;
+    }
+</style>
     </head>
 
 <body>
@@ -32,12 +40,12 @@
       </svg>
    </div>
    <!-- back to top end -->
-        
+
       @include('frontend.site.partials.header')
 
       @yield('content')
 
-    
+
      @include('frontend.site.partials.footer')
 
       <!-- offcanvas area start -->
@@ -147,7 +155,7 @@
    <!-- search popup overlay  -->
    <div class="bd-search-overlay"></div>
    <!-- serach popup area end here  -->
-    
+
      @include('frontend.site.partials.scripts')
 </body>
 </html>

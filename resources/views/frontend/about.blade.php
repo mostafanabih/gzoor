@@ -21,10 +21,10 @@
                   <div class="col-xl-10">
                      <div class="bd-breadcrumb d-flex align-items-center justify-content-center">
                         <div class="bd-breadcrumb-content text-center">
-                           <h1 class="bd-breadcrumb-title">About</h1>
+                           <h1 class="bd-breadcrumb-title">حول</h1>
                            <div class="bd-breadcrumb-list">
-                              <span><a href="index.html"><i class="flaticon-hut"></i>Kindedo</a></span>
-                              <span>About</span>
+                              <span><a href="/"><i class="flaticon-hut"></i>الصفحة الرئيسية</a></span>
+                              <span>حول</span>
                            </div>
                         </div>
                      </div>
@@ -40,61 +40,81 @@
       <!-- breadcrumb area end here  -->
 
       <!-- promotion area start here  -->
-      <section class="bd-promotion-area pt-120 pb-60">
-         <div class="container">
+      <section class="bd-promotion-area pb-60">
+        <div class="container">
             <div class="row align-items-center">
-               <div class="col-xl-6 col-lg-6">
-                  <div class="bd-promotion-thumb-wrapper mb-60 wow fadeInLeft" data-wow-duration="1s"
-                     data-wow-delay=".3s">
-                     <div class="bd-promotion-thumb">
-                        <div class="bd-promotion-thumb-mask p-relative">
-                           <img src="assets/img/promotion/2.png" alt="Image not found">
-                           <div class="panel wow"></div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="bd-promotion-thumb-wrapper mb-60">
+                        <div class="bd-promotion-thumb">
+
                         </div>
-                     </div>
-                     <div class="bd-promotion-shape d-none d-lg-block">
-                        <img src="assets/img/shape/tripple-line.png" alt="Shape not found">
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6">
-                  <div class="bd-promotion mb-60 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                     <div class="bd-section-title-wrapper mb-35">
-                        <h2 class="bd-section-title mb-10">Best for Your Kids</h2>
-                        <span>
-                           Some states and countries implement mandatory early childhood education
-                           such rules, many preschool.
-                        </span>
-                        <p> Being brave isn’t always a grand gesture sometimes it just means having a go attempting
-                           that difficult question, offering an answer in a lesson when you’re
-                           simply really trying new.
-                        </p>
-                     </div>
-                     <div class="bd-promotion-list mb-50">
-                        <ul>
-                           <li>We believe every child is intelligent so we care.</li>
-                           <li>Teachers make a difference of your child.</li>
-                        </ul>
-                     </div>
-                     <div class="bd-promotion-btn-wrapper flex-wrap">
-                        <div class="bd-promotion-btn">
-                           <a href="#" class="bd-btn">
-                              <span class="bd-btn-inner">
-                                 <span class="bd-btn-normal">View More</span>
-                                 <span class="bd-btn-hover">View More</span>
-                              </span>
-                           </a>
+                        <img src="assets/img/program/home-program-1.jpg" alt="" srcset="">
+
+                        <div class="bd-promotion-thumb-mask p-relative wow ">
+                            <div class="panel wow"></div>
                         </div>
-                        <div class="bd-promotion-btn-2 bd-pulse-btn btn-2">
-                           <a href="https://www.youtube.com/watch?v=l62SIcbCPwo" class="popup-video"><i
-                                 class="flaticon-play-button"></i> Promotional Video</a>
+                        <div class="bd-promotion-shape d-none d-lg-block">
+                            <img src="assets/img/shape/tripple-line.png">
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="bd-promotion mb-60 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1">
+                        <div class="bd-section-title-wrapper mb-35">
+                            <h2 class="bd-section-title mb-10">مدارس جذور المستقبل</h2>
+                            <p>
+                                نحن نسخر خبراتنا ومواردنا لتوفير أفضل الاختيارات وابتكار أفضل الحلول لتيسير عملية التعلم للمعلم والمتعلم، بحيث يتم استغلال الوقت الاستغلال الأمثل ولا يتم إهدار مجهود الطلاب فيما لا يفيد .. إنها عملية شاقة تتطلب جهداً مستمراً، إنها رسالة نحن ملتزمون بها.
+                            </p>
+                        </div>
+                        <div class="bd-promotion-counter-wrapper mb-40">
+                            <div class="bd-promotion-counter">
+                                <div class="bd-promotion-counter-number">
+                                    <p><span class="counter">14</span>+</p>
+                                </div>
+                                <div class="bd-promotion-counter-text">
+                                    <span>سنوات</span>
+                                    <span>الخبره</span>
+                                </div>
+                            </div>
+                            <div class="bd-promotion-counter">
+                                <div class="bd-promotion-counter-number">
+                                    <p><span><span class="counter">7</span>K</span>+</p>
+                                </div>
+                                <div class="bd-promotion-counter-text">
+                                    <span>المتحقين</span>
+                                    <span>كل سنة</span>
+                                </div>
+                            </div>
+                            <div class="bd-promotion-counter">
+                                <div class="bd-promotion-counter-number">
+                                    <p><span class="counter">15</span>+</p>
+                                </div>
+                                <div class="bd-promotion-counter-text">
+                                    <span>عدد </span>
+                                    <span>المعلمين</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bd-promotion-list mb-50">
+                            <ul>
+                                <li>الصدارة في بناء جيل واع محب لوطنه ملتزم بعقيدتع مساير لتطورات عصره في ظل شراكة مجتمعية فاعلة</li>
+                                <li>تنمية متكاملة للطالب ليجيد التعلم الذاتي بواسطة كادر تربوي متميز وبيئة تربوية امنه مزوده باحدث تقنيات العصؤ وخدمة مجتمعية نشطة</li>
+                            </ul>
+                        </div>
+                        <div class="bd-promotion-btn-wrapper flex-wrap">
+                            <div class="bd-promotion-btn">
+
+                            </div>
+                            <div class="bd-promotion-btn-2 bd-pulse-btn btn-2">
+                                <a href="https://www.youtube.com/watch?v=l62SIcbCPwo" class="popup-video"><i
+                             class="flaticon-play-button"></i> هنا مستقبل ابناكم</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </section>
+        </div>
+    </section>
       <!-- promotion area end here  -->
 
       <!-- feature area start here-->
@@ -107,8 +127,8 @@
                <div class="col-lg-8 col-md-10">
                   <div class="bd-section-title-wrapper is-white text-center mb-55 wow fadeInUp" data-wow-duration="1s"
                      data-wow-delay=".3s">
-                     <h2 class="bd-section-title mb-0">Our Core Value</h2>
-                     <p>View classes by age, program, or subject. Check out upcoming camps<br> and special events too!
+                     <h2 class="bd-section-title mb-0"> قيمنا الأساسية</h2>
+                     <p>في مدرسة جذور المستقبل، نؤمن بأن التعليم ليس مجرد تلقي المعلومات، بل هو رحلة استكشاف وتطوير مستمر للقدرات والمهارات. نعمل على خلق بيئة تعليمية ملهمة تعزز من تطوير التفكير النقدي والإبداعي لدى طلابنا، مع التركيز على بناء شخصياتهم وتنمية قيمهم الإنسانية.
                      </p>
                   </div>
                </div>
@@ -123,8 +143,10 @@
                                  <div class="bd-feature-icon icon-1">
                                     <i class="flaticon-book"></i>
                                  </div>
-                                 <h4 class="bd-feature-title">Learning & Fun</h4>
-                                 <p>When it comes to success in the classroom.</p>
+                                 <h4 class="bd-feature-title">الاحترام</h4>
+                                 <p>نحن نؤمن بأهمية الاحترام المتبادل بين جميع أفراد المجتمع المدرسي، من طلاب ومعلمين وأولياء أمور، حيث نعمل على تعزيز ثقافة التقدير والاحترام.
+
+                                 </p>
                               </div>
                            </div>
                         </li>
@@ -134,8 +156,8 @@
                                  <div class="bd-feature-icon icon-2">
                                     <i class="flaticon-soup"></i>
                                  </div>
-                                 <h4 class="bd-feature-title">Healthy Meals</h4>
-                                 <p>Safety matters just as much as the academics.</p>
+                                 <h4 class="bd-feature-title">التعليم الجيد </h4>
+                                 <p>حن ملتزمون بتقديم تعليم عالي الجودة يساهم في تطوير مهارات ومعارف الطلاب، ويعدهم للمستقبل بكل تحدياته.</p>
                               </div>
                            </div>
                         </li>
@@ -145,8 +167,8 @@
                                  <div class="bd-feature-icon icon-3">
                                     <i class="flaticon-child"></i>
                                  </div>
-                                 <h4 class="bd-feature-title">Children Safety</h4>
-                                 <p>Consistent with Friend ship’s focus on kindedo.</p>
+                                 <h4 class="bd-feature-title">التعاون</h4>
+                                 <p> نشجع على العمل الجماعي والشراكة بين جميع الأطراف، سواء داخل الفصل الدراسي أو في الأنشطة اللاصفية، لتحقيق الأهداف المشتركة.</p>
                               </div>
                            </div>
                         </li>
@@ -156,8 +178,10 @@
                                  <div class="bd-feature-icon icon-4">
                                     <i class="flaticon-delivery"></i>
                                  </div>
-                                 <h4 class="bd-feature-title">Free Shipping</h4>
-                                 <p>Guided by teachers who are veste student success.</p>
+                                 <h4 class="bd-feature-title">التفاني </h4>
+                                 <p> نحن نكرس جهودنا لتحقيق النجاح الأكاديمي والشخصي لكل طالب، ونعمل على توفير الدعم اللازم لهم للوصول إلى إمكاناتهم الكاملة.
+
+                                 </p>
                               </div>
                            </div>
                         </li>
@@ -177,16 +201,11 @@
                   <div class="bd-promotion bd-promotion-2 mb-60 wow fadeInLeft" data-wow-duration="1s"
                      data-wow-delay=".3s">
                      <div class="bd-section-title-wrapper mb-35">
-                        <h2 class="bd-section-title mb-10">Friendly atmosphere
-                           for all kids</h2>
+                        <h2 class="bd-section-title mb-10">جو ودي لجميع الأطفال</h2>
                         <span class="mb-10 d-inline-block">
-                           A Swiss
-                           follower of Jean-Jacques Rousseau’s belief in the inherent goodness of children helper.
-
+                            في مدرسة جذور المستقبل، نعمل على خلق بيئة تعليمية مريحة وودية لجميع الأطفال، حيث يشعر كل طالب بالأمان والقبول والدعم. نحن نؤمن بأن التعلم الأفضل يحدث عندما يكون الطلاب سعداء ومتحمسين للمشاركة في الأنشطة المدرسية. لهذا السبب، نضع جهدًا كبيرًا في بناء جو مشجع ومحفز يلبي احتياجات جميع الأطفال.
                         </span>
-                        <p>The kindergarten was developed in the nineteenth century by Friedrich Froebel, a German
-                           reformer and educator. He built upon the ideas of Johann Heinrich Pestalozzi.
-                        </p>
+
                      </div>
                      <div class="bd-promotion-list-2">
                         <ul>
@@ -194,13 +213,15 @@
                               <div class="bd-promotion-icon">
                                  <i class="flaticon-exclusive theme-bg-2"></i>
                               </div>
-                              <span>Full Day Sessions</span>
+                              <span>جلسات يوم كامل
+                            </span>
                            </li>
                            <li>
                               <div class="bd-promotion-icon">
                                  <i class="flaticon-whiteboard theme-bg"></i>
                               </div>
-                              <span>Varied Classes</span>
+                              <span>فئات متنوعة
+                            </span>
                            </li>
                         </ul>
                      </div>
@@ -235,9 +256,9 @@
                <div class="col-lg-8">
                   <div class="bd-section-title-wrapper is-white z-index-1 p-relative text-center mb-55 wow fadeInUp"
                      data-wow-duration="1s" data-wow-delay=".3s">
-                     <h2 class="bd-section-title mb-0">Parents Says</h2>
-                     <p>With the help of teachers and the environment as the third teacher, students<br> have
-                        opportunities to confidently take risks.</p>
+                     <h2 class="bd-section-title mb-0">ماذا قالوا عنا أولياء الأمور
+                    </h2>
+
                   </div>
                </div>
             </div>
@@ -256,15 +277,13 @@
                                  <a href="#"><i class="fas fa-star"></i></a>
                               </div>
                               <div class="bd-testimonial-content-2 mb-35">
-                                 <p>Happy Christmas to the whole Kindedo from everyone at Monkton. A big thank you to
-                                    Kindedo pupil Will who lent his Kindedo to this card, it's very usefull for
-                                    children, join kindedo for better future.</p>
+                                 <p>منذ أن انضم ابني إلى مدرسة جذور المستقبل، لاحظت تحسنًا كبيرًا في مستواه الأكاديمي. البيئة التعليمية هنا مشجعة ومحفزة، والمعلمون يتمتعون بكفاءة عالية ويهتمون بالطلاب بشكل فردي.</p>
                               </div>
                               <div class="bd-testimonial-avatar d-flex align-items-center">
                                  <div class="bd-testimonial-avatar-thumb">
                                     <img src="assets/img/testimonials/1.png" alt="testimonial avatar">
                                  </div>
-                                 <h6 class="bd-testimonial-avatar-title-2 mb-0">Norma J. Johnston</h6>
+                                 {{-- <h6 class="bd-testimonial-avatar-title-2 mb-0">Norma J. Johnston</h6> --}}
                                  <div class="bd-testimonial-quote d-none d-sm-block clr-2">
                                     <i class="flaticon-quote"></i>
                                  </div>
@@ -281,16 +300,14 @@
                                  <a href="#"><i class="fas fa-star"></i></a>
                               </div>
                               <div class="bd-testimonial-content-2 mb-35">
-                                 <p>Your child will laugh, play and explore at Summer at MLS. From soccer, water
-                                    play, art, music, theater and science, Shabbat celebrations, cooking, they will love
-                                    our academy, kindedo is best.</p>
+                                 <p>مدرسة جذور المستقبل ليست مجرد مدرسة، بل هي مجتمع يدعم ويشجع الأطفال على النمو والتعلم. أنا سعيدة جدًا بتقدم ابنتي الأكاديمي والشخصي هنا</p>
 
                               </div>
                               <div class="bd-testimonial-avatar d-flex align-items-center">
                                  <div class="bd-testimonial-avatar-thumb">
                                     <img src="assets/img/testimonials/2.png" alt="testimonial avatar">
                                  </div>
-                                 <h6 class="bd-testimonial-avatar-title-2 mb-0">Robert M. Allen</h6>
+                                 {{-- <h6 class="bd-testimonial-avatar-title-2 mb-0">Robert M. Allen</h6> --}}
                                  <div class="bd-testimonial-quote d-none d-sm-block clr-1">
                                     <i class="flaticon-quote"></i>
                                  </div>
@@ -308,7 +325,7 @@
       </section>
       <!-- testimonial area end here  -->
 
-      <!-- teacher area start here  -->
+      {{-- <!-- teacher area start here  -->
       <section class="bd-teacher-area pt-120 pb-120">
          <div class="container">
             <div class="row justify-content-center">
@@ -460,10 +477,10 @@
             </div>
          </div>
       </section>
-      <!-- teacher area end here  -->
+      <!-- teacher area end here  --> --}}
 
       <!-- counter area start here  -->
-      <div class="bd-counter-area-2 pb-90">
+      {{-- <div class="bd-counter-area-2 pb-90">
          <div class="container">
             <div class="row justify-content-center">
                <div class="col-lg-4 col-md-10 col-sm-10">
@@ -516,11 +533,11 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> --}}
       <!-- counter area end here  -->
 
       <!-- newsletter area start here  -->
-      <section class="bd-newsletter-area">
+      {{-- <section class="bd-newsletter-area">
          <div class="container">
             <div class="bd-newsletter pt-100 pb-100 theme-bg">
                <div class="bd-newsletter-bg" data-background="assets/img/bg/newsletter-bg.jpg"></div>
@@ -551,14 +568,13 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> --}}
       <!-- newsletter area end here  -->
    </main>
-   <!-- main area end here  -->    
+   <!-- main area end here  -->
 @endsection
 
 
 
 
 
-   

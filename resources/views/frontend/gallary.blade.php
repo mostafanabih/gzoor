@@ -1,54 +1,164 @@
+@extends('frontend.site.app')
 
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('content')
+  <main>
+    <!-- breadcrumb area start here -->
+    <section class="bd-breadcrumb-area p-relative fix theme-bg">
+       <!-- breadcrumb background image -->
+       <div class="bd-breadcrumb-bg" data-background="assets/img/bg/breadcrumb-bg.jpg"></div>
+       <div class="bd-breadcrumb-wrapper mb-60 p-relative">
+          <div class="container">
+             <div class="bd-breadcrumb-shape d-none d-sm-block p-relative">
+                <div class="bd-breadcrumb-shape-1">
+                   <img src="assets/img/shape/curved-line-2.png" alt="img not found!">
+                </div>
+                <div class="bd-breadcrumb-shape-2">
+                   <img src="assets/img/shape/white-curved-line.png" alt="img not found!">
+                </div>
+             </div>
+             <div class="row justify-content-center">
+                <div class="col-xl-10">
+                   <div class="bd-breadcrumb d-flex align-items-center justify-content-center">
+                      <div class="bd-breadcrumb-content text-center">
+                         <h1 class="bd-breadcrumb-title">معرض الصور</h1>
+                         <div class="bd-breadcrumb-list">
+                            <span><a href="index.html"><i class="flaticon-hut"></i>الصفحة الرئيسية</a></span>
+                            <span>معرض الصور</span>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="bd-wave-wrapper bd-wave-wrapper-3">
+          <div class="bd-wave bd-wave-3"></div>
+          <div class="bd-wave bd-wave-3"></div>
+       </div>
+    </section>
+    <!-- breadcrumb area end here  -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
-    <link rel="stylesheet" href="{{asset('assets/css/style1.css')}}">
-    <link rel="shortcut icon" type="image/x-icon" href="images/setting/2021010682449404996.png">
-    <meta content="Tarseya" name="author">
-    <meta name="_token" content="LW90ehl6ZALdNAhMJgCDtSjjCr6i7rKBE2wQILV3">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('assets/css/aos.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/jquery.fancybox.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/all.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="shortcut icon" type="image/x-icon" href="images/setting/2021010682449404996.png">
-    <title>Freebie: 4 Bootstrap Gallery Templates</title>
-</head>
-<body>
-
-<div class="container gallery-container">
-
-
-    
-    <div class="tz-gallery">
-
-        <div class="row">
-          @foreach($images as $image)
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="{{$image->image}}">
-                    <img src="{{$image->image}}" alt="Bridge" style="width:350px;height:300px;">
-                </a>
-            </div>
-            @endforeach
-
-        </div>
-
+    <!-- gallery area start here  -->
+    <div class="bd-gallery-area p-relative pt-120 pb-95 p-relative">
+       <div class="container">
+          <div class="row">
+             <div class="col-lg-3">
+                <div class="row">
+                   <div class="col-12">
+                      <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                         <div class="bd-gallery-thumb-wrapper">
+                            <div class="bd-gallery-thumb">
+                               <img src="assets/img/gallery/d1.png" alt="img not found!">
+                            </div>
+                            <div class="bd-gallery-icon">
+                               <a href="assets/img/gallery/d1.png" class="popup-image"><i
+                                     class="flaticon-eye"></i></a>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col-12">
+                      <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                         <div class="bd-gallery-thumb-wrapper">
+                            <div class="bd-gallery-thumb">
+                               <img src="assets/img/gallery/d4.png" alt="img not found!">
+                            </div>
+                            <div class="bd-gallery-icon">
+                               <a href="assets/img/gallery/d4.png" class="popup-image"><i
+                                     class="flaticon-eye"></i></a>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-5">
+                <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                   <div class="bd-gallery-thumb-wrapper">
+                      <div class="bd-gallery-thumb">
+                         <img src="assets/img/gallery/d2.png" alt="img not found!">
+                      </div>
+                      <div class="bd-gallery-icon">
+                         <a href="assets/img/gallery/d2.png" class="popup-image"><i class="flaticon-eye"></i></a>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-4">
+                <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                   <div class="bd-gallery-thumb-wrapper">
+                      <div class="bd-gallery-thumb">
+                         <img src="assets/img/gallery/d3.png" alt="img not found!">
+                      </div>
+                      <div class="bd-gallery-icon">
+                         <a href="assets/img/gallery/d3.png" class="popup-image"><i class="flaticon-eye"></i></a>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="row">
+             <div class="col-lg-5">
+                <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                   <div class="bd-gallery-thumb-wrapper">
+                      <div class="bd-gallery-thumb">
+                         <img src="assets/img/gallery/d5.png" alt="img not found!">
+                      </div>
+                      <div class="bd-gallery-icon">
+                         <a href="assets/img/gallery/d5.png" class="popup-image"><i class="flaticon-eye"></i></a>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-4">
+                <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                   <div class="bd-gallery-thumb-wrapper">
+                      <div class="bd-gallery-thumb">
+                         <img src="assets/img/gallery/d6.png" alt="img not found!">
+                      </div>
+                      <div class="bd-gallery-icon">
+                         <a href="assets/img/gallery/d6.png" class="popup-image"><i class="flaticon-eye"></i></a>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-3">
+                <div class="row">
+                   <div class="col-12">
+                      <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                         <div class="bd-gallery-thumb-wrapper">
+                            <div class="bd-gallery-thumb">
+                               <img src="assets/img/gallery/d7.png" alt="img not found!">
+                            </div>
+                            <div class="bd-gallery-icon">
+                               <a href="assets/img/gallery/d7.png" class="popup-image"><i
+                                     class="flaticon-eye"></i></a>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col-12">
+                      <div class="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                         <div class="bd-gallery-thumb-wrapper">
+                            <div class="bd-gallery-thumb">
+                               <img src="assets/img/gallery/d8.png" alt="img not found!">
+                            </div>
+                            <div class="bd-gallery-icon">
+                               <a href="assets/img/gallery/d8.png" class="popup-image"><i
+                                     class="flaticon-eye"></i></a>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
     </div>
+    <!-- gallery area end here  -->
 
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
-</body>
-</html>
+
+ </main>
+ <!-- main area end here  -->
+ <!-- footer area start -->
+ @endsection

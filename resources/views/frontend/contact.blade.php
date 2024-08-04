@@ -21,10 +21,12 @@
                   <div class="col-xl-10">
                      <div class="bd-breadcrumb d-flex align-items-center justify-content-center">
                         <div class="bd-breadcrumb-content text-center">
-                           <h1 class="bd-breadcrumb-title">Contact Us</h1>
+                           <h1 class="bd-breadcrumb-title">تواصل معنا
+                        </h1>
                            <div class="bd-breadcrumb-list">
-                              <span><a href="index.html"><i class="flaticon-hut"></i>Kindedo</a></span>
-                              <span>Contact Us</span>
+                              <span><a href="index.html"><i class="flaticon-hut"></i>الصفحة الرئيسية</a></span>
+                              <span>تواصل معنا
+                            </span>
                            </div>
                         </div>
                      </div>
@@ -62,7 +64,7 @@
                            <div class="bd-contact-info-icon cat-2">
                               <a href="#"><i class="flaticon-location-pin"></i></a>
                            </div>
-                           <h6><a href="#">14/A, Kilix Home Tower</a></h6>
+                           <h6><a href="#">المملكة العربية السعودية الاحساء</a></h6>
                         </div>
                      </div>
                   </div>
@@ -90,59 +92,59 @@
             <div class="row">
                <div class="col-xl-6 mb-60">
                   <div class="bd-contact-form wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                     <h3 class="bd-contact-form-title mb-25">Contact Us Right Here</h3>
+                     <h3 class="bd-contact-form-title mb-25">تواصل معنا هنا
+                    </h3>
                      <form action="#">
                         <div class="row">
                            <div class="col-md-6">
                               <div class="bd-contact-input mb-30">
-                                 <label for="name">Name <sup><i class="fa-solid fa-star-of-life"></i></sup></label>
+                                 <label for="name">الاسم <sup><i class="fa-solid fa-star-of-life"></i></sup></label>
                                  <input id="name" type="text">
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="bd-contact-input mb-30">
-                                 <label for="email">Email <sup><i class="fa-solid fa-star-of-life"></i></sup></label>
+                                 <label for="email">الايميل <sup><i class="fa-solid fa-star-of-life"></i></sup></label>
                                  <input id="email" type="text">
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="bd-contact-input mb-30">
-                                 <label for="phone">Phone <sup><i class="fa-solid fa-star-of-life"></i></sup></label>
+                                 <label for="phone">رقم الجوال <sup><i class="fa-solid fa-star-of-life"></i></sup></label>
                                  <input id="phone" type="text">
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="bd-contact-input mb-30">
-                                 <label for="subject">Subject <sup><i
+                                 <label for="subject">الموضوع <sup><i
                                           class="fa-solid fa-star-of-life"></i></sup></label>
                                  <select name="subject" id="subject" class="bd-nice-select">
-                                    <option>Select Subject</option>
-                                    <option>Junior KG</option>
-                                    <option>Senior KG</option>
+                                    <option>اختار</option>
+                                    <option>التسجيل</option>
+                                    <option>الرسوم</option>
                                  </select>
                               </div>
                            </div>
                            <div class="col-md-12">
                               <div class="bd-contact-input mb-20">
-                                 <label for="textarea">Comments <sup><i
+                                 <label for="textarea">التعليق <sup><i
                                           class="fa-solid fa-star-of-life"></i></sup></label>
                                  <textarea name="textarea" id="textarea"></textarea>
                               </div>
                            </div>
                            <div class="col-md-12 mb-30">
                               <div class="bd-contact-agree d-flex align-items-center">
-                                 <input class="" type="checkbox" id="check-agree">
-                                 <label class="check-label" for="check-agree">Save Data for Next Comment</label>
+                                 {{-- <input class="" type="checkbox" id="check-agree"> --}}
+                                 {{-- <label class="check-label" for="check-agree">Save Data for Next Comment</label> --}}
                               </div>
                            </div>
                            <div class="col-md-12">
                               <div class="bd-contact-agree-btn">
                                  <button type="submit" class="bd-btn">
                                     <span class="bd-btn-inner">
-                                       <span class="bd-btn-normal">Send
-                                          now</span>
-                                       <span class="bd-btn-hover">Send
-                                          now</span>
+                                       <span class="bd-btn-normal">ارسال </span>
+                                       <span class="bd-btn-hover">
+                                          ارسال</span>
                                     </span>
                                  </button>
                               </div>
@@ -153,10 +155,7 @@
                </div>
                <div class="col-xl-6 mb-60">
                   <div class="bd-contact-map wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14596.899807208923!2d90.3654215!3d23.8461445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1673765392297!5m2!1sen!2sbd"
-                        style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28824.094128209956!2d49.57143037238171!3d25.43787016497781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e37bde20667632b%3A0x455dc60b9694ce3!2z2LHZiNi22Kkg2KzYsNmI2LEg2KfZhNmF2LPYqtmC2KjZhA!5e0!3m2!1sen!2ssa!4v1722757151248!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                </div>
             </div>
@@ -165,7 +164,7 @@
       <!-- contact area end here  -->
 
       <!-- newsletter area start here  -->
-      <section class="bd-newsletter-area">
+      {{-- <section class="bd-newsletter-area">
          <div class="container">
             <div class="bd-newsletter pt-100 pb-100 theme-bg">
                <div class="bd-newsletter-bg" data-background="assets/img/bg/newsletter-bg.jpg"></div>
@@ -196,7 +195,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> --}}
       <!-- newsletter area end here  -->
    </main>
    <!-- main area end here  -->
