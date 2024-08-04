@@ -48,7 +48,7 @@
                      <div class="bd-blog-cat-menu-wrapper mb-60 wow fadeInRight" data-wow-duration="1s"
                         data-wow-delay=".3s">
                         <div class="bd-blog-cat-menu bd-filter-btn">
-                           <button data-filter=".c-1" class="active"> اخر الاخبر</button>
+                           <button data-filter=".c-1" class="active"> اخر الاخبار</button>
 
                         </div>
                      </div>
