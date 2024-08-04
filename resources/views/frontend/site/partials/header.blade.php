@@ -86,64 +86,32 @@
                                                     <a href="javascript:void(0);" class="d-lg-none">List 1</a>
                                                     <ul>
                                                         <li>
-                                                            <a href="program-details.html" class="mega-program">
+                                                            <a href="#" class="mega-program">
                                                                 <div class="mega-menu-2-inner-num"><span>01</span></div>
                                                                 <div class="mega-menu-2-inner-title">
-                                                                    <h6>Settling</h6>
-                                                                    <span>4-5 Yrs</span>
+                                                                    <h6>روضة</h6>
+                                                                    <span>1-3 سنه</span>
                                                                 </div>
                                                             </a>
                                                         </li>
-                                                        <li>
-                                                            <a href="program-details.html" class="mega-program">
-                                                                <div class="mega-menu-2-inner-num"><span>02</span></div>
-                                                                <div class="mega-menu-2-inner-title">
-                                                                    <h6>Play Group</h6>
-                                                                    <span>4-5 Yrs</span>
-                                                                </div>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="program-details.html" class="mega-program">
-                                                                <div class="mega-menu-2-inner-num"><span>03</span></div>
-                                                                <div class="mega-menu-2-inner-title">
-                                                                    <h6>Play Group</h6>
-                                                                    <span>5-6 Yrs</span>
-                                                                </div>
-                                                            </a>
-                                                        </li>
+
+
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a href="javascript:void(0);" class="d-lg-none">List 2</a>
                                                     <ul>
                                                         <li>
-                                                            <a href="program-details.html" class="mega-program">
-                                                                <div class="mega-menu-2-inner-num"><span>04</span></div>
+                                                            <a href="#" class="mega-program">
+                                                                <div class="mega-menu-2-inner-num"><span>02</span></div>
                                                                 <div class="mega-menu-2-inner-title">
-                                                                    <h6>Nuesery</h6>
-                                                                    <span>4-5 Yrs</span>
+                                                                    <h6>ابتدئي</h6>
+                                                                    <span>4-5 سنه</span>
                                                                 </div>
                                                             </a>
                                                         </li>
-                                                        <li>
-                                                            <a href="program-details.html" class="mega-program">
-                                                                <div class="mega-menu-2-inner-num"><span>05</span></div>
-                                                                <div class="mega-menu-2-inner-title">
-                                                                    <h6>Junior Kg</h6>
-                                                                    <span>4-5 Yrs</span>
-                                                                </div>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="program-details.html" class="mega-program">
-                                                                <div class="mega-menu-2-inner-num"><span>06</span></div>
-                                                                <div class="mega-menu-2-inner-title">
-                                                                    <h6>Senior Kg</h6>
-                                                                    <span>6-7 Yrs</span>
-                                                                </div>
-                                                            </a>
-                                                        </li>
+
+
                                                     </ul>
                                                 </li>
 

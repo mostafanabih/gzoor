@@ -66,10 +66,7 @@
                </div>
             </div>
             <div class="offcanvas__search mb-0">
-               <form action="#">
-                  <button type="submit"><i class="flaticon-search"></i></button>
-                  <input type="text" placeholder="Search here">
-               </form>
+
             </div>
             <div class="mobile-menu fix mt-40"></div>
             <div class="offcanvas__about d-none d-lg-block mt-30 mb-30">

@@ -54,7 +54,7 @@
                                                         تعليم إبداعي شامل ومتميز
                                                     </h1>
                                                     <div class="bd-hero-btn animate__animated" data-animation="fadeInUp" data-delay=".7s">
-                                                        <a href="programs.html" class="bd-btn">
+                                                        <a href="https://land.wmc-ksa.com/gzoor/" class="bd-btn">
                                                             <span class="bd-btn-inner">
                                                 <span class="bd-btn-normal">سجل الان</span>
                                                             <span class="bd-btn-hover">التسجل
@@ -647,7 +647,7 @@
                                     <p>نحن نمتلك فريقًا من المعلمين ذوي الخبرة الذين يمتلكون خلفية تعليمية قوية وسجل حافل في مسيرتهم التعليمية.</p>
                                 </div>
                                 <div class="bd-joining-btn">
-                                    <a href="classes.html" class="bd-btn btn-white">
+                                    <a href="{{route('contacts')}}" class="bd-btn btn-white">
                                         <span class="bd-btn-inner">
                                  <span class="bd-btn-normal">توصل معنا</span>
                                         <span class="bd-btn-hover">توصل معنا</span>
@@ -690,7 +690,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="bd-blog-active swiper-container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
                             <div class="swiper-wrapper">
+                                @foreach($posts as $post)
+
                                 <div class="swiper-slide">
                                     <div class="bd-blog">
                                         <a href="news-details.html">
@@ -701,64 +704,22 @@
                                         <div class="bd-blog-content bd-blog-content-2">
                                             <div class="test-thumb">
                                                 <div class="bd-blog-date-2">
-                                                    <span>22 Jan 2022</span>
+                                                    <span>{{ $post->created_at->format('d M Y') }}</span>
                                                 </div>
                                             </div>
                                             <div class="bd-blog-meta">
-                                                <span><i class="fas fa-user"></i> by <a href="news.html">Alex</a></span>
-                                                <span><i class="fa-solid fa-comment-dots"></i><a href="news-details.html">0
-                                          Comments</a></span>
+                                                <span><i class="fas fa-user"></i> by <a href="{{route('show_post',$post->id)}}">{{$post->user}}</a></span>
+                                                <span><i class="fa-solid fa-comment-dots"></i><a href="{{route('show_post',$post->id)}}">
+                                     </span>
                                             </div>
-                                            <h4 class="bd-blog-title"><a href="news-details.html">Tips to Understand Your Child
-                                       Better - Parents Guide !</a></h4>
+                                            <h4 class="bd-blog-title"><a href="{{route('show_post',$post->id)}}">{{$post->name}}</a></h4>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="bd-blog">
-                                        <a href="news-details.html">
-                                            <div class="bd-blog-thumb">
-                                                <img src="assets/img/blog/4.jpg" alt="blog image">
-                                            </div>
-                                        </a>
-                                        <div class="bd-blog-content bd-blog-content-2">
-                                            <div class="bd-blog-date-2">
-                                                <span>22 Nov 2022</span>
-                                            </div>
-                                            <div class="bd-blog-meta">
-                                                <span><i class="fas fa-user"></i> by <a href="news.html">Alex</a></span>
-                                                <span><i class="fa-solid fa-comment-dots"></i><a href="news-details.html">04
-                                          Comments</a></span>
-                                            </div>
-                                            <h4 class="bd-blog-title"><a href="news-details.html">Why Toys for pre schoolers are
-                                       Important - ready setup</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="bd-blog">
-                                        <a href="news-details.html">
-                                            <div class="bd-blog-thumb">
-                                                <img src="assets/img/blog/3.jpg" alt="blog image">
-                                            </div>
-                                        </a>
-                                        <div class="bd-blog-content bd-blog-content-2">
-                                            <div class="bd-blog-date-2">
-                                                <span>22 Dec 2022</span>
-                                            </div>
-                                            <div class="bd-blog-meta">
-                                                <span><i class="fas fa-user"></i> by <a href="news.html">Alex</a></span>
-                                                <span><i class="fa-solid fa-comment-dots"></i><a href="news-details.html">02
-                                          Comments</a></span>
-                                            </div>
-                                            <h4 class="bd-blog-title"><a href="news-details.html">Which Toys are Best for Pre
-                                       School in Area
-                                       Kids in USA
-                                    </a></h4>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
+
                             </div>
+
                         </div>
                     </div>
                 </div>

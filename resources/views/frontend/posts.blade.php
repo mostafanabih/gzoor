@@ -48,7 +48,7 @@
                      <div class="bd-blog-cat-menu-wrapper mb-60 wow fadeInRight" data-wow-duration="1s"
                         data-wow-delay=".3s">
                         <div class="bd-blog-cat-menu bd-filter-btn">
-                           <button data-filter=".c-1" class="active">Kindergarten (04)</button>
+                           <button data-filter=".c-1" class="active"> اخر الاخبر</button>
 
                         </div>
                      </div>
@@ -56,72 +56,27 @@
                </div>
             </div>
             <div class="row grid">
+                @foreach($posts as $post)
                <div class="col-xl-4 col-lg-6 col-md-6 grid-item c-1 c-3 c-4">
                   <div class="bd-blog mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                      <a href="news-details.html">
                         <div class="bd-blog-thumb">
-                           <img src="assets/img/blog/6.jpg" alt="blog image">
+                           <img src="{{asset("storage/$post->image")}}" alt="blog image">
                         </div>
                      </a>
                      <div class="bd-blog-content">
                         <div class="bd-blog-date">
-                           <span>22 Jan 2022</span>
+                           <span>{{ $post->created_at->format('d M Y') }}</span>
                         </div>
                         <div class="bd-blog-meta">
-                           <span><i class="fas fa-user"></i> by <a href="news.html">Alex</a></span>
-                           <span><i class="fa-solid fa-comment-dots"></i><a href="news-details.html">0
-                                 Comments</a></span>
+                           <span><i class="fas fa-user"></i> by <a href="news.html">مدير</a></span>
+                           <span><i class="fa-solid fa-comment-dots"></i><a href="news-details.html"></span>
                         </div>
-                        <h4 class="bd-blog-title"><a href="news-details.html">Tips to Understand Your Child
-                              Better -
-                              A
-                              Guide!</a></h4>
+                        <h4 class="bd-blog-title"><a href="{{route('show_post',$post->id)}}">افتتاح مختبر العلوم الجديد</a></h4>
                      </div>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-6 grid-item c-1 c-2 c-3 ">
-                  <div class="bd-blog mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                     <a href="news-details.html">
-                        <div class="bd-blog-thumb">
-                           <img src="assets/img/blog/4.jpg" alt="blog image">
-                        </div>
-                     </a>
-                     <div class="bd-blog-content">
-                        <div class="bd-blog-date">
-                           <span>22 Nov 2022</span>
-                        </div>
-                        <div class="bd-blog-meta">
-                           <span><i class="fas fa-user"></i> by <a href="news.html">Alex</a></span>
-                           <span><i class="fa-solid fa-comment-dots"></i><a href="news-details.html">04
-                                 Comments</a></span>
-                        </div>
-                        <h4 class="bd-blog-title"><a href="news-details.html">Why Toys for Preschoolers are
-                              Important ready setup</a></h4>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-6 col-md-6 grid-item c-1 c-2  c-4">
-                  <div class="bd-blog mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                     <a href="news-details.html">
-                        <div class="bd-blog-thumb">
-                           <img src="assets/img/blog/9.jpg" alt="blog image">
-                        </div>
-                     </a>
-                     <div class="bd-blog-content">
-                        <div class="bd-blog-date">
-                           <span>22 Dec 2022</span>
-                        </div>
-                        <div class="bd-blog-meta">
-                           <span><i class="fas fa-user"></i> by <a href="news.html">Alex</a></span>
-                           <span><i class="fa-solid fa-comment-dots"></i><a href="news-details.html">02
-                                 Comments</a></span>
-                        </div>
-                        <h4 class="bd-blog-title"><a href="news-details.html">Which Toys are Best for Preschool
-                              Kids in USA
-                           </a></h4>
-                     </div>
-                  </div>
-               </div>
+               @endforeach
 
 
 
