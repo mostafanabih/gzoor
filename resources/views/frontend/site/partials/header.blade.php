@@ -177,7 +177,7 @@
                                     </div>
                                 </div>
                                 <div class="bd-header-btn d-none d-xl-block">
-                                    <a href="contact.html" class="bd-btn">
+                                    <a href="https://land.wmc-ksa.com/gzoor/" class="bd-btn">
                                         <span class="bd-btn-inner">
                                  <span class="bd-btn-normal">التسجل </span>
                                         <span class="bd-btn-hover">سجل الان</span>

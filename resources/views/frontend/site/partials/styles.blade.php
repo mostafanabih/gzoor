@@ -1,5 +1,5 @@
 <!-- Place favicon.ico in the root directory -->
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/bg/preloader.png">
 
 <!-- CSS here -->
 <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}">
