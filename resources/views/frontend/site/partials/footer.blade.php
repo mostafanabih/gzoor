@@ -109,7 +109,7 @@
                                         <div class="bd-footer-contact is-white">
                                             <ul>
                                                 <li><i class="fa-light fa-location-dot"></i><a href="#">المملكة العربية السعوديه الاحساء</a></li>
-                                                <li><i class="fa-light fa-phone"></i><a href="tel:9072003462">0560896483</a></li>
+                                                <li><i class="fa-light fa-phone"></i><a href="tel:0507701111">0507701111</a></li>
                                                 <li><i class="fa-light fa-envelope"></i><a href="mailto:support@kindedo.com">Support@kindedo.com</a></li>
                                             </ul>
                                         </div>

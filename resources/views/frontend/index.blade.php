@@ -104,10 +104,10 @@
                                                 <i class="flaticon-drum"></i>
                                             </div>
                                             <div class="bd-class-content">
-                                                <h3 class="bd-class-title"><a href="class-details.html">حضانة </a></h3>
+                                                <h3 class="bd-class-title"><a href="#">حضانة </a></h3>
                                                 <p>بيئة دافئة ومريحة تجمع بين اللعب والتعلم، حيث نعتني بأطفالك ونغرس فيهم حب الاستكشاف والمعرفة. </p>
                                                 <div class="bd-class-btn">
-                                                    <a href="class-details.html" class="bd-btn bd-btn-grey">
+                                                    <a href="#" class="bd-btn bd-btn-grey">
                                                         <span class="bd-btn-inner">
                                                          <span class="bd-btn-normal">انضم إلى جزور المستقبل</span>
                                                         <span class="bd-btn-hover">انضم الان</span>
@@ -129,10 +129,10 @@
                                                 <i class="flaticon-color-palette"></i>
                                             </div>
                                             <div class="bd-class-content">
-                                                <h3 class="bd-class-title"><a href="class-details.html">روضه </a></h3>
+                                                <h3 class="bd-class-title"><a href="#">روضه </a></h3>
                                                 <p>مرحلة حيوية نقدم فيها برامج تعليمية متقدمة لتنمية المهارات الأساسية وتعزيز الذكاء الاجتماعي والعاطفي للأطفال.</p>
                                                 <div class="bd-class-btn">
-                                                    <a href="class-details.html" class="bd-btn bd-btn-grey">
+                                                    <a href="#" class="bd-btn bd-btn-grey">
                                                         <span class="bd-btn-inner">
                                                          <span class="bd-btn-normal">انضم إلى جزور المستقبل</span>
                                                         <span class="bd-btn-hover">انضم الان</span>
@@ -156,10 +156,10 @@
                                                 <i class="flaticon-color-palette"></i>
                                             </div>
                                             <div class="bd-class-content">
-                                                <h3 class="bd-class-title"><a href="class-details.html">مدرسة </a></h3>
+                                                <h3 class="bd-class-title"><a href="#">مدرسة </a></h3>
                                                 <p>مرحلة التعليم الأساسي، حيث نقدم منهجاً متكاملاً يعتمد على أساليب التعليم الحديثة والتكنولوجيا، مع تعزيز القيم الأخلاقية والمهارات الحياتية.</p>
                                                 <div class="bd-class-btn">
-                                                    <a href="class-details.html" class="bd-btn bd-btn-grey">
+                                                    <a href="#" class="bd-btn bd-btn-grey">
                                                         <span class="bd-btn-inner">
                                           <span class="bd-btn-normal">انضم إلى جزور المستقبل</span>
                                                         <span class="bd-btn-hover">انضم الان</span>
@@ -278,14 +278,14 @@
                                 <div class="swiper-slide">
                                     <div class="bd-program-2 clr-1">
                                         <div class="bd-program-thumb-wrapper">
-                                            <a href="program-details.html">
+                                            <a href="#">
                                                 <div class="bd-program-thumb-2">
                                                     <img src="assets/img/program/home-program-1.jpg" alt="Image not found">
                                                 </div>
                                             </a>
                                         </div>
                                         <div class="bd-program-content mb-10">
-                                            <h3 class="bd-program-title"><a class="hover-clr-1" href="program-details.html">الحضانة</a>
+                                            <h3 class="bd-program-title"><a class="hover-clr-1" href="#">الحضانة</a>
                                             </h3>
                                         </div>
                                         <div class="bd-program-info-wrapper-2">
@@ -304,14 +304,14 @@
                                 <div class="swiper-slide">
                                     <div class="bd-program-2 clr-2">
                                         <div class="bd-program-thumb-wrapper">
-                                            <a href="program-details.html">
+                                            <a href="#">
                                                 <div class="bd-program-thumb-2">
                                                     <img src="assets/img/program/home-program-2.jpg" alt="Image not found">
                                                 </div>
                                             </a>
                                         </div>
                                         <div class="bd-program-content mb-10">
-                                            <h3 class="bd-program-title"><a class="hover-clr-2" href="program-details.html">الروضه</a>
+                                            <h3 class="bd-program-title"><a class="hover-clr-2" href="#">الروضه</a>
                                             </h3>
                                         </div>
                                         <div class="bd-program-info-wrapper-2">
@@ -330,14 +330,14 @@
                                 <div class="swiper-slide">
                                     <div class="bd-program-2 clr-3">
                                         <div class="bd-program-thumb-wrapper">
-                                            <a href="program-details.html">
+                                            <a href="#">
                                                 <div class="bd-program-thumb-2">
                                                     <img src="assets/img/program/home-program-3.jpg" alt="Image not found">
                                                 </div>
                                             </a>
                                         </div>
                                         <div class="bd-program-content mb-10">
-                                            <h3 class="bd-program-title"><a href="program-details.html" class="hover-clr-3">المدرسة</a>
+                                            <h3 class="bd-program-title"><a href="#" class="hover-clr-3">المدرسة</a>
                                             </h3>
                                         </div>
                                         <div class="bd-program-info-wrapper-2">
@@ -464,7 +464,7 @@
                                     <div class="col-xl-3 col-lg-6 col-md-6">
                                         <div class="bd-teacher-2 p-relative z-index-1 mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                                             <div class="bd-teacher-thumb-wrapper-2 mb-20 p-relative">
-                                                <a href="teacher-details.html">
+                                                <a href="#">
                                                     <div class="bd-teacher-thumb-2">
                                                         <img src="assets/img/teacher/7.jpg" alt="Image not found">
                                                     </div>
@@ -488,7 +488,7 @@
                                             </div>
                                             <div class="bd-teacher-content-wrapper-2">
                                                 <div class="bd-teacher-content-2 text-center">
-                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="teacher-details.html">
+                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="#">
                                                       مريم  عبدالله الدوسري
                                              </a>
                                                     </h4>
@@ -500,7 +500,7 @@
                                     <div class="col-xl-3 col-lg-6 col-md-6">
                                         <div class="bd-teacher-2 p-relative z-index-1 mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                                             <div class="bd-teacher-thumb-wrapper-2 mb-20 p-relative">
-                                                <a href="teacher-details.html">
+                                                <a href="#">
                                                     <div class="bd-teacher-thumb-2">
                                                         <img src="assets/img/teacher/7.jpg" alt="Image not found">
                                                     </div>
@@ -524,7 +524,7 @@
                                             </div>
                                             <div class="bd-teacher-content-wrapper-2">
                                                 <div class="bd-teacher-content-2 text-center">
-                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="teacher-details.html">
+                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="#">
                                                      مريم  عبدالله الدوسري
                                             </a>
                                                     </h4>
@@ -536,7 +536,7 @@
                                     <div class="col-xl-3 col-lg-6 col-md-6">
                                         <div class="bd-teacher-2 p-relative z-index-1 mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                                             <div class="bd-teacher-thumb-wrapper-2 mb-20 p-relative">
-                                                <a href="teacher-details.html">
+                                                <a href="#">
                                                     <div class="bd-teacher-thumb-2">
                                                         <img src="assets/img/teacher/7.jpg" alt="Image not found">
                                                     </div>
@@ -560,7 +560,7 @@
                                             </div>
                                             <div class="bd-teacher-content-wrapper-2">
                                                 <div class="bd-teacher-content-2 text-center">
-                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="teacher-details.html">
+                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="#">
                                                   مريم  عبدالله الدوسري
                                          </a>
                                                     </h4>
@@ -572,7 +572,7 @@
                                     <div class="col-xl-3 col-lg-6 col-md-6">
                                         <div class="bd-teacher-2 p-relative z-index-1 mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                                             <div class="bd-teacher-thumb-wrapper-2 mb-20 p-relative">
-                                                <a href="teacher-details.html">
+                                                <a href="#">
                                                     <div class="bd-teacher-thumb-2">
                                                         <img src="assets/img/teacher/7.jpg" alt="Image not found">
                                                     </div>
@@ -596,7 +596,7 @@
                                             </div>
                                             <div class="bd-teacher-content-wrapper-2">
                                                 <div class="bd-teacher-content-2 text-center">
-                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="teacher-details.html">
+                                                    <h4 class="bd-teacher-title-2 mb-5"><a href="#">
                                                      مريم  عبدالله الدوسري
                                             </a>
                                                     </h4>

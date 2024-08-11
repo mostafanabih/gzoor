@@ -92,7 +92,7 @@
                         <a href="tel:+088889797697"><i class="far fa-phone"></i></a>
                      </div>
                      <div class="offcanvas__contact-text">
-                        <a href="tel:+088889797697">088889797697</a>
+                        <a href="tel:0507701111">0507701111</a>
                      </div>
                   </li>
                   <li class="d-flex align-items-center gap-2">

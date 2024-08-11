@@ -345,14 +345,14 @@
                      <div class="swiper-wrapper">
                         <div class="swiper-slide">
                            <div class="bd-teacher">
-                              <a href="teacher-details.html">
+                              <a href="#">
                                  <div class="bd-teacher-thumb">
                                     <img src="assets/img/teacher/5.jpg" alt="Image not found">
                                  </div>
                               </a>
                               <div class="bd-teacher-content-wrapper">
                                  <div class="bd-teacher-content">
-                                    <h4 class="bd-teacher-title"><a href="teacher-details.html">Emmy Jonas</a></h4>
+                                    <h4 class="bd-teacher-title"><a href="#">Emmy Jonas</a></h4>
                                     <span class="bd-teacher-des">Teacher</span>
                                  </div>
                                  <div class="bd-teacher-social">
@@ -376,14 +376,14 @@
                         </div>
                         <div class="swiper-slide">
                            <div class="bd-teacher">
-                              <a href="teacher-details.html">
+                              <a href="#">
                                  <div class="bd-teacher-thumb">
                                     <img src="assets/img/teacher/3.jpg" alt="Image not found">
                                  </div>
                               </a>
                               <div class="bd-teacher-content-wrapper">
                                  <div class="bd-teacher-content">
-                                    <h4 class="bd-teacher-title"><a href="teacher-details.html">Frances R.</a></h4>
+                                    <h4 class="bd-teacher-title"><a href="#">Frances R.</a></h4>
                                     <span class="bd-teacher-des">Teacher</span>
                                  </div>
                                  <div class="bd-teacher-social">
@@ -407,14 +407,14 @@
                         </div>
                         <div class="swiper-slide">
                            <div class="bd-teacher">
-                              <a href="teacher-details.html">
+                              <a href="#">
                                  <div class="bd-teacher-thumb">
                                     <img src="assets/img/teacher/7.jpg" alt="Image not found">
                                  </div>
                               </a>
                               <div class="bd-teacher-content-wrapper">
                                  <div class="bd-teacher-content">
-                                    <h4 class="bd-teacher-title"><a href="teacher-details.html">Cecelia D.</a></h4>
+                                    <h4 class="bd-teacher-title"><a href="#">Cecelia D.</a></h4>
                                     <span class="bd-teacher-des">Teacher</span>
                                  </div>
                                  <div class="bd-teacher-social">
@@ -438,14 +438,14 @@
                         </div>
                         <div class="swiper-slide">
                            <div class="bd-teacher">
-                              <a href="teacher-details.html">
+                              <a href="#">
                                  <div class="bd-teacher-thumb">
                                     <img src="assets/img/teacher/2.jpg" alt="Image not found">
                                  </div>
                               </a>
                               <div class="bd-teacher-content-wrapper">
                                  <div class="bd-teacher-content">
-                                    <h4 class="bd-teacher-title"><a href="teacher-details.html">Olinda L.</a></h4>
+                                    <h4 class="bd-teacher-title"><a href="#">Olinda L.</a></h4>
                                     <span class="bd-teacher-des">Teacher</span>
                                  </div>
                                  <div class="bd-teacher-social">
